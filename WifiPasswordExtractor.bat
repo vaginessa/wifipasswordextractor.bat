@@ -23,7 +23,7 @@ for /F "tokens=4*" %%i in ('netsh wlan show profiles *^| findstr /l :"SSID name"
 )
 
 rem Screen text.
-echo Finished. See 'ssidskeys.txt'
+echo Finished. See 'ssidswkeys.txt'
 
 rem Screen text: Press any key to continue...
 rem Then it will exit.
